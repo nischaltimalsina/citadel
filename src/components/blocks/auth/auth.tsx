@@ -29,7 +29,7 @@ export function Authentication() {
                 className='data-[state=active]:shadow-none'>
                 Login
               </TabsTrigger>
-              <TabsTrigger value='register'>register</TabsTrigger>
+              <TabsTrigger value='register'>Register</TabsTrigger>
             </TabsList>
             <TabsContent value='login'>
               <div className='mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]'>
@@ -91,5 +91,5 @@ export function Authentication() {
         </div>
       </main>
     );
-  router.push('/');
+  router.push('/dashboard');
 }

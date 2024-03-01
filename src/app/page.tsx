@@ -1,7 +1,8 @@
-import Image from "next/image";
+import { Authentication } from '@/components/blocks';
+import React from 'react';
 
-export default function Home() {
-  return (
-    <div className=""></div>
-  );
-}
+const Page = () => {
+  return <Authentication />;
+};
+
+export default Page;

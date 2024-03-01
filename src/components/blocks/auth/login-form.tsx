@@ -59,7 +59,7 @@ export function LoginForm({ className, ...props }: LoginFormProps) {
           <Button
             disabled={isLoading}
             onClick={() => {
-              router.push('/');
+              router.push('/dashboard');
               login({ username: 'exampleUser' });
             }}>
             {isLoading && (
