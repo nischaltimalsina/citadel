@@ -60,7 +60,7 @@ export function LoginForm({ className, ...props }: LoginFormProps) {
             disabled={isLoading}
             onClick={() => {
               router.push('/dashboard');
-              login({ username: 'exampleUser' });
+              login({ username: 'Nischal' });
             }}>
             {isLoading && (
               <Icons.spinner className='mr-2 h-4 w-4 animate-spin' />

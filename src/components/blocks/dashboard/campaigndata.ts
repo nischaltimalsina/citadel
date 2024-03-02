@@ -1,0 +1,78 @@
+export const campaigndata =[
+    {
+      "id": "ad_1",
+      "campaign_name": "Summer Sale",
+      "start_date": "2024-06-01",
+      "end_date": "2024-06-30",
+      "budget": 5000,
+      "status": "Active",
+      "target_audience": "Young adults interested in fashion and lifestyle",
+      "clicks": 2456,
+      "impressions": 12000,
+      "ctr": 0.204,
+      "cost_per_click": 1.45,
+      "conversions": 120,
+      "conversion_rate": 4.88
+    },
+    {
+      "id": "ad_2",
+      "campaign_name": "Back to School",
+      "start_date": "2024-08-01",
+      "end_date": "2024-09-15",
+      "budget": 8000,
+      "status": "Active",
+      "target_audience": "Parents with school-age children",
+      "clicks": 3521,
+      "impressions": 18000,
+      "ctr": 0.195,
+      "cost_per_click": 2.15,
+      "conversions": 210,
+      "conversion_rate": 5.97
+    },
+    {
+      "id": "ad_3",
+      "campaign_name": "Holiday Special",
+      "start_date": "2024-11-15",
+      "end_date": "2024-12-31",
+      "budget": 10000,
+      "status": "Paused",
+      "target_audience": "General audience interested in holiday shopping",
+      "clicks": 1800,
+      "impressions": 9000,
+      "ctr": 0.2,
+      "cost_per_click": 2.5,
+      "conversions": 150,
+      "conversion_rate": 8.33
+    },
+    {
+      "id": "ad_4",
+      "campaign_name": "New Year Resolution",
+      "start_date": "2025-01-01",
+      "end_date": "2025-01-31",
+      "budget": 3000,
+      "status": "Completed",
+      "target_audience": "Fitness enthusiasts and health-conscious individuals",
+      "clicks": 1200,
+      "impressions": 6000,
+      "ctr": 0.2,
+      "cost_per_click": 2.5,
+      "conversions": 80,
+      "conversion_rate": 6.67
+    },
+    {
+      "id": "ad_5",
+      "campaign_name": "Spring Clearance",
+      "start_date": "2025-04-01",
+      "end_date": "2025-04-30",
+      "budget": 6000,
+      "status": "Active",
+      "target_audience": "Professionals interested in business attire and accessories",
+      "clicks": 1800,
+      "impressions": 10000,
+      "ctr": 0.18,
+      "cost_per_click": 3.33,
+      "conversions": 90,
+      "conversion_rate": 5.00
+    }
+  ]
+  
